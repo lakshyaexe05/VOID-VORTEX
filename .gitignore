@@ -1,0 +1,4 @@
+# SQLite transient sidecars (the synthetic database itself is intentionally shareable).
+data/*.sqlite-shm
+data/*.sqlite-wal
+data/*.sqlite-journal
